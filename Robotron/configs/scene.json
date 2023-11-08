@@ -1,0 +1,1843 @@
+[
+    {
+        "camera": {
+            "cameraEye": [
+                500.0,
+                500.0,
+                1000.0
+            ],
+            "cameraTarget": [
+                500.0,
+                500.0,
+                0.0
+            ],
+            "upVector": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "isActive": true
+        }
+    },
+    {
+        "model": {
+            "name": "gameover.ply",
+            "collisionName": "",
+            "friendlyName": "gameover",
+            "isWireframe": false,
+            "doNotLight": true,
+            "isActive": true
+        },
+        "tag": {
+            "name": "gameover"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 2.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "script": {
+            "scriptName": "GameManager",
+            "isActive": true,
+            "variables": {
+                "maxHeight": "700",
+                "maxWidth": "800",
+                "minHeight": "250",
+                "minWidth": "100",
+                "nBrains": "2",
+                "nDad": "1",
+                "nGrunts": "5",
+                "nHulks": "2",
+                "nMikey": "1",
+                "nMom": "1",
+                "nSphereoids": "1",
+                "nTanks": "2"
+            }
+        },
+        "tag": {
+            "name": "GM"
+        }
+    },
+    {
+        "collision": {
+            "shape": 10,
+            "bodyType": 0,
+            "isActive": true,
+            "minXY": [
+                -2.0,
+                -205.0,
+                0.0
+            ],
+            "maxXY": [
+                2.0,
+                205.0,
+                0.0
+            ],
+            "offset": [
+                2.0,
+                0.0,
+                0.0
+            ]
+        },
+        "model": {
+            "name": "wall.ply",
+            "collisionName": "",
+            "friendlyName": "wallleft",
+            "isWireframe": false,
+            "doNotLight": true,
+            "isActive": true
+        },
+        "tag": {
+            "name": "wall"
+        },
+        "transform": {
+            "position": [
+                0.0,
+                450.0,
+                0.0
+            ],
+            "scale": 2.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "collision": {
+            "shape": 10,
+            "bodyType": 0,
+            "isActive": true,
+            "minXY": [
+                -205.0,
+                -2.0,
+                0.0
+            ],
+            "maxXY": [
+                205.0,
+                2.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "model": {
+            "name": "wallH.ply",
+            "collisionName": "",
+            "friendlyName": "wallbottom",
+            "isWireframe": false,
+            "doNotLight": true,
+            "isActive": true
+        },
+        "tag": {
+            "name": "wall"
+        },
+        "transform": {
+            "position": [
+                408.0,
+                200.0,
+                0.0
+            ],
+            "scale": 2.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "collision": {
+            "shape": 10,
+            "bodyType": 0,
+            "isActive": true,
+            "minXY": [
+                -205.0,
+                -2.0,
+                0.0
+            ],
+            "maxXY": [
+                205.0,
+                2.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "model": {
+            "name": "wallH.ply",
+            "collisionName": "",
+            "friendlyName": "wallbottom2",
+            "isWireframe": false,
+            "doNotLight": true,
+            "isActive": true
+        },
+        "tag": {
+            "name": "wall"
+        },
+        "transform": {
+            "position": [
+                592.0,
+                200.0,
+                0.0
+            ],
+            "scale": 2.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "collision": {
+            "shape": 10,
+            "bodyType": 0,
+            "isActive": true,
+            "minXY": [
+                -205.0,
+                -2.0,
+                0.0
+            ],
+            "maxXY": [
+                205.0,
+                2.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "model": {
+            "name": "wallH.ply",
+            "collisionName": "",
+            "friendlyName": "walltop",
+            "isWireframe": false,
+            "doNotLight": true,
+            "isActive": true
+        },
+        "tag": {
+            "name": "wall"
+        },
+        "transform": {
+            "position": [
+                408.0,
+                800.0,
+                0.0
+            ],
+            "scale": 2.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "collision": {
+            "shape": 10,
+            "bodyType": 0,
+            "isActive": true,
+            "minXY": [
+                -205.0,
+                -2.0,
+                0.0
+            ],
+            "maxXY": [
+                205.0,
+                2.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "model": {
+            "name": "wallH.ply",
+            "collisionName": "",
+            "friendlyName": "walltop2",
+            "isWireframe": false,
+            "doNotLight": true,
+            "isActive": true
+        },
+        "tag": {
+            "name": "wall"
+        },
+        "transform": {
+            "position": [
+                592.0,
+                800.0,
+                0.0
+            ],
+            "scale": 2.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "collision": {
+            "shape": 10,
+            "bodyType": 0,
+            "isActive": true,
+            "minXY": [
+                -2.0,
+                -205.0,
+                0.0
+            ],
+            "maxXY": [
+                2.0,
+                205.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "model": {
+            "name": "wall.ply",
+            "collisionName": "",
+            "friendlyName": "wallright",
+            "isWireframe": false,
+            "doNotLight": true,
+            "isActive": true
+        },
+        "tag": {
+            "name": "wall"
+        },
+        "transform": {
+            "position": [
+                1000.0,
+                450.0,
+                0.0
+            ],
+            "scale": 2.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "playerbullet.ply"
+            ],
+            "friendlyName": "playerbullet",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -40.0,
+                -40.0,
+                0.0
+            ],
+            "maxXY": [
+                40.0,
+                40.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Projectile",
+            "isActive": false,
+            "variables": {
+                "velocity": "300"
+            }
+        },
+        "tag": {
+            "name": "playerbullet"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 0.10000000149011612,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "humans/daddy1.ply",
+                "humans/daddy2.ply",
+                "humans/daddy3.ply"
+            ],
+            "friendlyName": "dad",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -25.0,
+                20.0,
+                0.0
+            ],
+            "maxXY": [
+                15.0,
+                140.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Human",
+            "isActive": false,
+            "variables": {
+                "timeWalking": "1",
+                "velocity": "50"
+            }
+        },
+        "tag": {
+            "name": "dad"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "humans/mommy1.ply",
+                "humans/mommy2.ply",
+                "humans/mommy3.ply"
+            ],
+            "friendlyName": "mom",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -25.0,
+                20.0,
+                0.0
+            ],
+            "maxXY": [
+                15.0,
+                140.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Human",
+            "isActive": false,
+            "variables": {
+                "timeWalking": "1",
+                "velocity": "50"
+            }
+        },
+        "tag": {
+            "name": "mom"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "humans/mikey1.ply",
+                "humans/mikey2.ply",
+                "humans/mikey3.ply"
+            ],
+            "friendlyName": "mikey",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -25.0,
+                20.0,
+                0.0
+            ],
+            "maxXY": [
+                15.0,
+                140.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Human",
+            "isActive": false,
+            "variables": {
+                "timeWalking": "0.5",
+                "velocity": "50"
+            }
+        },
+        "tag": {
+            "name": "mikey"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "player/player1.ply",
+                "player/player2.ply",
+                "player/player3.ply"
+            ],
+            "friendlyName": "player",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -25.0,
+                -45.0,
+                0.0
+            ],
+            "maxXY": [
+                25.0,
+                45.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Player",
+            "isActive": false,
+            "variables": {
+                "projectileName": "playerbullet",
+                "timeFireRate": "0.1",
+                "velocity": "175"
+            }
+        },
+        "tag": {
+            "name": "player"
+        },
+        "transform": {
+            "position": [
+                500.0,
+                500.0,
+                0.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "grunt/grunt1.ply",
+                "grunt/grunt2.ply",
+                "grunt/grunt3.ply"
+            ],
+            "friendlyName": "grunt",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -40.0,
+                0.0,
+                0.0
+            ],
+            "maxXY": [
+                45.0,
+                130.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Grunt",
+            "isActive": false,
+            "variables": {
+                "timeSeeking": "2",
+                "velocity": "100"
+            }
+        },
+        "tag": {
+            "name": "grunt"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "hulk/hulk1.ply",
+                "hulk/hulk2.ply",
+                "hulk/hulk3.ply"
+            ],
+            "friendlyName": "hulk",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -65.0,
+                30.0,
+                0.0
+            ],
+            "maxXY": [
+                65.0,
+                170.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Hulk",
+            "isActive": false,
+            "variables": {
+                "timeWalking": "2",
+                "velocity": "50"
+            }
+        },
+        "tag": {
+            "name": "hulk"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "progs/progDad1.ply",
+                "progs/progDad2.ply",
+                "progs/progDad3.ply"
+            ],
+            "friendlyName": "progDad",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -30.0,
+                0.0,
+                0.0
+            ],
+            "maxXY": [
+                30.0,
+                150.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Prog",
+            "isActive": false,
+            "variables": {
+                "timeSeeking": "1",
+                "velocity": "200"
+            }
+        },
+        "tag": {
+            "name": "progdad"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "progs/progMom1.ply",
+                "progs/progMom2.ply",
+                "progs/progMom3.ply"
+            ],
+            "friendlyName": "progMom",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -30.0,
+                0.0,
+                0.0
+            ],
+            "maxXY": [
+                30.0,
+                150.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Prog",
+            "isActive": false,
+            "variables": {
+                "timeSeeking": "1",
+                "velocity": "200"
+            }
+        },
+        "tag": {
+            "name": "progmom"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "progs/progMikey1.ply",
+                "progs/progMikey2.ply",
+                "progs/progMikey3.ply"
+            ],
+            "friendlyName": "progMikey",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -30.0,
+                0.0,
+                0.0
+            ],
+            "maxXY": [
+                30.0,
+                150.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Prog",
+            "isActive": false,
+            "variables": {
+                "timeSeeking": "1",
+                "velocity": "200"
+            }
+        },
+        "tag": {
+            "name": "progmikey"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "sphereoid/sphereoid1.ply",
+                "sphereoid/sphereoid2.ply",
+                "sphereoid/sphereoid3.ply",
+                "sphereoid/sphereoid4.ply",
+                "sphereoid/sphereoid5.ply",
+                "sphereoid/sphereoid6.ply",
+                "sphereoid/sphereoid7.ply",
+                "sphereoid/sphereoid8.ply"
+            ],
+            "friendlyName": "sphereoid",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -75.0,
+                -75.0,
+                0.0
+            ],
+            "maxXY": [
+                75.0,
+                75.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Sphereoid",
+            "isActive": false,
+            "variables": {
+                "enforcerName": "enforcer",
+                "timeSpawnRate": "2",
+                "timeTillDisappear": "6",
+                "timeWalking": "1",
+                "velocity": "300"
+            }
+        },
+        "tag": {
+            "name": "sphereoid"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "sphereoid/sphereoid1.ply",
+                "sphereoid/sphereoid2.ply",
+                "sphereoid/sphereoid3.ply",
+                "sphereoid/sphereoid4.ply",
+                "sphereoid/sphereoid5.ply",
+                "sphereoid/sphereoid6.ply",
+                "sphereoid/sphereoid7.ply",
+                "sphereoid/sphereoid8.ply"
+            ],
+            "friendlyName": "sphereoid",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -85.0,
+                -85.0,
+                0.0
+            ],
+            "maxXY": [
+                85.0,
+                85.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Sphereoid",
+            "isActive": false,
+            "variables": {
+                "enforcerName": "enforcer",
+                "timeSpawnRate": "2",
+                "timeTillDisappear": "10",
+                "timeWalking": "1",
+                "velocity": "300"
+            }
+        },
+        "tag": {
+            "name": "sphereoid"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "enforcer/enforcer1.ply",
+                "enforcer/enforcer2.ply",
+                "enforcer/enforcer3.ply",
+                "enforcer/enforcer4.ply",
+                "enforcer/enforcer5.ply",
+                "enforcer/enforcer6.ply"
+            ],
+            "friendlyName": "enforcer",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -45.0,
+                -45.0,
+                0.0
+            ],
+            "maxXY": [
+                45.0,
+                65.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Enforcer",
+            "isActive": false,
+            "variables": {
+                "projectileName": "enforcerbullet",
+                "timeFireRate": "1",
+                "timeSeeking": "2",
+                "velocity": "100"
+            }
+        },
+        "tag": {
+            "name": "enforcer"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "enforcer/enforcerbullet1.ply",
+                "enforcer/enforcerbullet2.ply",
+                "enforcer/enforcerbullet3.ply",
+                "enforcer/enforcerbullet4.ply"
+            ],
+            "friendlyName": "enforcerbullet",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -30.0,
+                -30.0,
+                0.0
+            ],
+            "maxXY": [
+                30.0,
+                30.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Projectile",
+            "isActive": false,
+            "variables": {
+                "velocity": "200"
+            }
+        },
+        "tag": {
+            "name": "enforcerbullet"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 0.10000000149011612,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "brain/brain1.ply",
+                "brain/brain2.ply",
+                "brain/brain3.ply"
+            ],
+            "friendlyName": "brain",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -65.0,
+                -65.0,
+                0.0
+            ],
+            "maxXY": [
+                80.0,
+                80.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Brain",
+            "isActive": false,
+            "variables": {
+                "projectileName": "cruisemissile",
+                "targetScriptName": "Human",
+                "timeFireRate": "3",
+                "timeSeeking": "2",
+                "velocity": "100"
+            }
+        },
+        "tag": {
+            "name": "brain"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "brain/cruisemissile1.ply",
+                "brain/cruisemissile2.ply"
+            ],
+            "friendlyName": "cruisemissile",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -10.0,
+                -10.0,
+                0.0
+            ],
+            "maxXY": [
+                10.0,
+                10.0,
+                0.0
+            ],
+            "offset": [
+                15.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "TrackingProjectile",
+            "isActive": false,
+            "variables": {
+                "timeSeeking": "1.5",
+                "velocity": "200"
+            }
+        },
+        "tag": {
+            "name": "cruisemissile"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 0.5,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "tank/tank1.ply",
+                "tank/tank2.ply"
+            ],
+            "friendlyName": "tank",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 1,
+            "isActive": false,
+            "minXY": [
+                -65.0,
+                -65.0,
+                0.0
+            ],
+            "maxXY": [
+                65.0,
+                65.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 0.10000000149011612,
+            "restitution": 0.800000011920929,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "Tank",
+            "isActive": false,
+            "variables": {
+                "projectileName": "orb",
+                "timeFireRate": "2",
+                "timeSeeking": "3",
+                "velocity": "50"
+            }
+        },
+        "tag": {
+            "name": "tank"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                9999.0
+            ],
+            "scale": 0.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "isActive": false,
+            "models": [
+                "tank/orb1.ply",
+                "tank/orb2.ply"
+            ],
+            "friendlyName": "orb",
+            "isWireframe": false,
+            "doNotLight": true
+        },
+        "collision": {
+            "shape": 10,
+            "bodyType": 2,
+            "isActive": false,
+            "minXY": [
+                -40.0,
+                -40.0,
+                0.0
+            ],
+            "maxXY": [
+                40.0,
+                40.0,
+                0.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "force": {
+            "inverseMass": 1.0,
+            "restitution": 1.0,
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "isActive": true,
+            "adjustTowards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "adjustValue": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "script": {
+            "scriptName": "BouncingProjectile",
+            "isActive": false,
+            "variables": {
+                "velocity": "250"
+            }
+        },
+        "tag": {
+            "name": "orb"
+        },
+        "transform": {
+            "position": [
+                9999.0,
+                9999.0,
+                0.0
+            ],
+            "scale": 0.15000000596046448,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    }
+]
