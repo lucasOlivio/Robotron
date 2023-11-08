@@ -49,3 +49,7 @@ Project 1 for "Game frameworks and patterns" class. A replica of robotron to dem
   - A/D - Change selected parameter in the X axis.
   - Q/E - Change selected parameter in the Y axis.
   - W/S - Change selected parameter in the Z axis.
+
+### Screenshots
+
+![Game](docs/gameprint.png)
