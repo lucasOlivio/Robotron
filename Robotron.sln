@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Robotron", "Robotron\Robotron.vcxproj", "{FAAC655D-74AB-49C3-A00F-B8F2E1084113}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CED0800C-97A9-43C3-BEEB-26A1345B7CF2} = {CED0800C-97A9-43C3-BEEB-26A1345B7CF2}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{CED0800C-97A9-43C3-BEEB-26A1345B7CF2}"
 EndProject

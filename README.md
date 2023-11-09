@@ -12,7 +12,7 @@ Project 1 for "Game frameworks and patterns" class. A replica of robotron to dem
 
 1. Unzip all libs from the .zip file in the "extern/lib/" folder
 2. Open the solution in VS
-3. Build first the "Engine" project, then run the startup project
+3. Run the startup project
 4. If using the .exe generated remember that it should be at the same folder as the "assets" and "configs" folder
 5. Press P to start playing.
 
